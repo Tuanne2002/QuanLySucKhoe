@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTenBN"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tên bệnh nhân : "
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtTenBN"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Tên bệnh nhân"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTenTThuoc"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Tên Thuốc : "
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtTenThuoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Tên Thuốc"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSoLuong"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.9"
+            android:text="Số Lượng : "
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtSoluong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Số Lượng"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCD"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="Công Dụng : "
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtCD1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Công Dụng"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNgayBatDau"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ngày Bắt Đầu : "
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtNgayBatDau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="Ngày Bắt Đầu"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNgayKetThuc"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ngày Kết Thúc : "
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/txtNgayKetThuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.7"
+            android:hint="Ngày Kết Thúc"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

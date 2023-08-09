@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".XemDanhSachThuocActivity">
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="411dp"
+        android:layout_height="123dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#1BB0B9" />
+
+    <TextView
+        android:id="@+id/b_c_s_t_v_n"
+        android:layout_width="170dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="89dp"
+        android:gravity="top"
+
+        android:text="DANH SÁCH ĐƠN THUỐC" />
+
+    <Button
+        android:id="@+id/imgBack4"
+        android:layout_width="26.3dp"
+        android:layout_height="25.82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/img_10" />
+
+    <View
+        android:id="@+id/image_7"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="347dp"
+        android:layout_marginTop="59dp"
+        android:background="@drawable/img_5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:textSize="20dp"
+
+        android:text="Danh sách thuốc :" />
+
+    <ListView
+        android:id="@+id/lvThuoc"
+        android:layout_width="wrap_content"
+        android:layout_height="520dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="160dp" >
+
+
+    </ListView>
+
+
+</RelativeLayout>

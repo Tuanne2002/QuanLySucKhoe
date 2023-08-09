@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DichVuChamSocBenhNhanActivity">
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="411dp"
+        android:layout_height="121dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FD6C6C"
+        />
+    <Button
+        android:id="@+id/imgBack"
+        android:layout_width="26.3dp"
+        android:layout_height="25.82dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/img_10" />
+    <TextView
+        android:id="@+id/dichvu"
+        android:layout_width="174dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:text="DỊCH VỤ CHĂM SÓC "
+        android:textColor="@color/white"
+        android:gravity="top"
+        />
+    <View
+        android:id="@+id/image_6"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="364dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/img_2"
+        />
+
+
+
+    <View
+        android:id="@+id/imgkham"
+        android:layout_width="53dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/img_24"
+        />
+    <TextView
+        android:id="@+id/txtkham"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:text="Khám và điều trị bệnh"
+
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/imgchuandoan"
+        android:layout_width="48dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/img_26"
+        />
+    <TextView
+        android:id="@+id/txtchuandoan"
+        android:layout_width="175dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:text="Chuẩn đoán hình ảnh"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/imgxetnghiem"
+        android:layout_width="62dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/img_27"
+        />
+    <TextView
+        android:id="@+id/txtxetnghiem"
+        android:layout_width="92dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:text="Xét nghiệm"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/imgtiem"
+        android:layout_width="47dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="395dp"
+        android:background="@drawable/img_28"
+        />
+    <TextView
+        android:id="@+id/txttiemphong"
+        android:layout_width="97dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="405dp"
+        android:text="Tiêm phòng"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/imgtuvan"
+        android:layout_width="77dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="465dp"
+        android:background="@drawable/img_29"
+        />
+    <TextView
+        android:id="@+id/txttuvan"
+        android:layout_width="133dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="490dp"
+        android:text="Tư vấn sức khỏe"
+        android:gravity="top"
+        />
+
+
+    <View
+        android:id="@+id/imgphuchoi"
+        android:layout_width="47dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/img_30"
+        />
+    <TextView
+        android:id="@+id/txtphuchoi"
+        android:layout_width="162dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="585dp"
+        android:text="Phục hồi chức năng"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/imgchamsoc"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/img_31"
+        />
+    <TextView
+        android:id="@+id/txtchamsoc"
+        android:layout_width="137dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="660dp"
+        android:text="Chăm sóc tâm lý"
+        android:gravity="top"
+        />
+
+</RelativeLayout>

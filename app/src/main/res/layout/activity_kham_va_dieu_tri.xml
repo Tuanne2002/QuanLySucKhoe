@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".KhamVaDieuTriActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/imgBack"
+            android:layout_width="26.3dp"
+            android:layout_height="25.82dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/img_10" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:text="Trở lại" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/imgkham"
+            android:layout_width="53dp"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/img_24" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Khám và điều trị bệnh"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:gravity="left"
+        android:text="Dịch vụ quan trọng trong chăm sóc sức khỏe, bao gồm kiểm tra tình trạng cơ thể, đưa ra chẩn đoán bệnh và kế hoạch điều trị bằng cách sử dụng kiến thức y tế và các phương pháp hiện đại. Bác sĩ tận tâm tư vấn và thực hiện các biện pháp để phục hồi sức khỏe." />
+</LinearLayout>

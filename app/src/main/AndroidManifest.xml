@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".ChamSocTamLyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhucHoiChucNangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TuVanSucKhoeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XetNghiemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TiemPhongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChuanDoanHinhAnhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KhamVaDieuTriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XemHoSoBenhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XemDsBacSiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XemDanhSachThuocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DichVuChamSocBenhNhanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemTKBacSiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyTKBacSiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemTKNguoiDungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyTKNguoiDungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLyTKAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemLichSuKhamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrangHomeBacSiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LichSuBenhAnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrangHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DanhSachThuocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemBacSiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThemBenhNhanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HoSoBenhNhanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThuocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TaiKhoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DichVuChamSocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BacSiTuVanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhapActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
